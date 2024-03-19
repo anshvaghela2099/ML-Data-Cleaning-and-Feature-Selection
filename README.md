@@ -1,6 +1,6 @@
-ML Data Cleaning and Feature Selection
+#ML Data Cleaning and Feature Selection
 
-Answer the following questions:
+The following questions are answered in the notebook
 
 * What are the data types? (Only numeric and categorical)
 
@@ -15,7 +15,7 @@ Answer the following questions:
 * Do the training and test sets have the same data?
 
 * In the predictor variables independent of all the other predictor variables?
-                     
+  
 * Which predictor variables are the most important?
 
 * Do the ranges of the predictor variables make sense?
