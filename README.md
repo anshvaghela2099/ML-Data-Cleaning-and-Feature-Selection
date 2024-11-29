@@ -1,29 +1,46 @@
 # ML Data Cleaning and Feature Selection
 
-The following questions are answered in the notebook
+## Overview
 
-* What are the data types? (Only numeric and categorical)
+This notebook focuses on performing essential steps for **data cleaning** and **feature selection** in a machine learning workflow. It uses a dataset related to customer churn in the banking industry, demonstrating how to clean data, preprocess features, and select the most important attributes for building predictive models.
 
-* Are there missing values?
+## Dataset
 
-* What are the likely distributions of the numeric variables?
+The dataset used in this notebook contains the following features:
 
-* Which independent variables are useful to predict a target (dependent variable)? (Use at least three methods)
+1. `CustomerID`
+2. `Credit Score`
+3. `Country`
+4. `Gender`
+5. `Age`
+6. `Tenure`
+7. `Balance`
+8. `Product Number`
+9. `Credit Card`
+10. `Active Member`
+11. `Estimated Salary`
+12. `Churn` (Target variable)
 
-* Which independent variables have missing data? How much? 
+## Key Features of the Notebook
 
-* Do the training and test sets have the same data?
+- **Data Import**: Loading the dataset for analysis.
+- **Data Cleaning**: Handling missing values, detecting outliers, and ensuring data integrity.
+- **Feature Engineering**: Transforming categorical and numerical variables using encoding and scaling techniques.
+- **Feature Selection**: Identifying the most relevant features using statistical methods and domain knowledge.
 
-* In the predictor variables independent of all the other predictor variables?
-  
-* Which predictor variables are the most important?
+## Requirements
 
-* Do the ranges of the predictor variables make sense?
+This notebook requires the following Python libraries:
 
-* What are the distributions of the predictor variables?   
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
 
-* Remove outliers and keep outliers (does if have an effect of the final predictive model)?
+## Learning Outcomes
 
-* Remove 1%, 5%, and 10% of your data randomly and impute the values back using at least 3 imputation methods. How well did the methods recover the missing values?  That is remove some data, check the % error on residuals for numeric data and check for bias and variance of the error.
+- Gain practical knowledge of data preprocessing techniques.
+- Understand how to prepare raw datasets for machine learning models.
+- Learn methods to identify and select features critical for predictive accuracy.
 
-For categorical data, calculate the accuracy and a confusion matrix.
